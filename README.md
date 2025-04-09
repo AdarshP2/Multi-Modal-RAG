@@ -37,7 +37,9 @@ This solution is ideal for scenarios where understanding and querying complex PD
 
 ## Project Structure
 
-├── app.py # Streamlit app for PDF upload, preview, and Q&A ├── config.py # Configuration for API keys and file paths 
+├── app.py # Streamlit app for PDF upload, preview, and Q&A 
+
+├── config.py # Configuration for API keys and file paths 
 
 ├── extract_data.py # Functions for extracting text, tables, and images from PDFs 
 
