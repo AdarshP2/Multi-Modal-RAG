@@ -37,4 +37,10 @@ This solution is ideal for scenarios where understanding and querying complex PD
 
 ## Project Structure
 
-├── app.py # Streamlit app for PDF upload, preview, and Q&A ├── config.py # Configuration for API keys and file paths ├── extract_data.py # Functions for extracting text, tables, and images from PDFs ├── main.py # Command-line script to process a PDF and run the RAG pipeline ├── rag_pipeline.py # Builds the RAG pipeline to generate answers from retrieved context ├── summarise.py # Contains summarization pipelines for text, tables, and images ├── utils.py # Utility functions (e.g., for image display and document parsing) └── requirements.txt # Python dependencies (create this file based on your project needs)
+├── app.py # Streamlit app for PDF upload, preview, and Q&A ├── config.py # Configuration for API keys and file paths 
+├── extract_data.py # Functions for extracting text, tables, and images from PDFs 
+├── main.py # Command-line script to process a PDF and run the RAG pipeline 
+├── rag_pipeline.py # Builds the RAG pipeline to generate answers from retrieved context 
+├── summarise.py # Contains summarization pipelines for text, tables, and images
+├── utils.py # Utility functions (e.g., for image display and document parsing) 
+└── requirements.txt # Python dependencies (create this file based on your project needs)
